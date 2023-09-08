@@ -1,3 +1,14 @@
+"""
+RLE Explanation: 
+
+The algorithm, executed at the link layer,
+defines frame boundaries to segment data accurately.
+While it aids in frame validation and loss detection,
+it's susceptible to disruption from noise affecting the index byte,
+leading to its disuse in modern networking technologies and protocols.
+
+"""
+
 def encapsulate_message(message_number):
     message_str = str(message_number)
     encapsulated = []
